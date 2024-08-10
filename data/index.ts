@@ -2,7 +2,7 @@ export const navItems = [
   { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  /* { name: "Testimonials", link: "#testimonials" }, */
+  // { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -50,10 +50,11 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title:
+      "I am a dedicated developer with a passion for creating seamless user experiences",
+    description: "Who am I?",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60 opacity-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/b5.svg",
     spareImg: "/grid.svg",
@@ -206,13 +207,19 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    name: "GitHub",
+    link: "https://github.com/misakiidev",
   },
   {
     id: 2,
     img: "/twit.svg",
+    name: "Twitter",
+    link: "https://x.com/misakiidev",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/insta.svg",
+    name: "Instagram",
+    link: "https://www.instagram.com/misakiidev",
   },
 ];
