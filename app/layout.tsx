@@ -17,6 +17,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/icon.ico" sizes="any" />
+        <meta content="misakii's Portfolio" property="og:title" />
+        <meta
+          content="I'm Anaël Couralet, based in Montpellier, and currently studying at Epitech."
+          property="og:description"
+        />
+        <meta content="https://misakii.dev" property="og:url" />
+        <meta content="https://i.imgur.com/aeCeaGT.jpeg" property="og:image" />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="400" />
+      </head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
