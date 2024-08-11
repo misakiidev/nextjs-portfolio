@@ -26,7 +26,7 @@ const Footer = () => {
 
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-small md:font-normal font-light">
-          Copyright © 2024 misakiidev. All rights reserved.
+          Copyright © 2024 misakiidev.
         </p>
 
         <div className="flex items-center md:gap-3 mt-3 gap-6">
