@@ -55,6 +55,8 @@ const Hero = () => {
           <TextGenerateEffect
             words="Hi! I'm misakii, a Student & Developer from France."
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            filter={false}
+            duration={1}
           />
 
           <p className="text-center md:tracking-wider mb-10 text-sm md:text-lg lg:text-2xl">
