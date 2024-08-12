@@ -28,6 +28,12 @@ export default function RootLayout({
         <meta content="https://i.imgur.com/aeCeaGT.jpeg" property="og:image" />
         <meta property="og:image:width" content="400" />
         <meta property="og:image:height" content="400" />
+        <meta content="#000319" data-react-helmet="true" name="theme-color" />
+        <link
+          rel="icon"
+          type="image/x-icon"
+          href="https://i.imgur.com/aeCeaGT.jpeg"
+        />
       </head>
       <body className={inter.className}>
         <ThemeProvider
