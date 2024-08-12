@@ -7,7 +7,7 @@ import { socialMedia } from "@/data";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36" id="home">
+    <div className="pb-20 md:pt-36 pt-12" id="home">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
